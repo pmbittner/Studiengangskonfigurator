@@ -7,7 +7,7 @@ will not be responsive during that startup time.
 The `Undefined` list at the center contains all possible subjects of study, such as
 courses, theses, labs, and the branches of study.
 You can select or deselect subjects by clicking them and using the arrow buttons to push them into
-the corresponding lists.
+the corresponding lists. Subjects below the dotted line (`-----`) are de-/selected automatically.
 
 At the top left you will find the `Configuration Status`, indicating if all constraints
 for a correct selection of subjects are fulfilled.
