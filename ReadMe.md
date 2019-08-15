@@ -34,6 +34,22 @@ If this branch is chosen the configuration will not become valid as long as thes
 
 Thus, you can choose any subjects you are interested in or might already have attended and see if you could graduate in the branch you desire.
 
+### Limitations
+
+Currently, not all branches of study are supported.
+Suppored are:
+  + Big Data Management
+  + IT-Security
+  + Visual Computing
+  + Industrial Data Science
+  + Robotik
+
+The following branches are not yet supported and thus are deselected automatically:
+  - Fahrzeuginformatik
+  - Hardware-/Softwaresystementwurf und -analyse
+  - Medizinische Informatik
+  - Networked Systems.
+
 ### Implementation
 For further information on implementation and model please visit https://github.com/PaulAtTUBS/BroT.
 
