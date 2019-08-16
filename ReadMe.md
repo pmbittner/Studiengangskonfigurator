@@ -1,7 +1,7 @@
 ### Configurator for [Branches of Study at TU Braunschweig][1]
 
 The configurator is a runnable JAR file requiring Java 8 or newer.  
-As it will need about 4.5min to load the configuration data, its window
+As it will need about 5 to 10 minutes to load the configuration data, its window
 will not be responsive during that startup time.
 
 The `Undefined` list at the center contains all possible subjects of study, such as
