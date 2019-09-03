@@ -54,13 +54,13 @@ The following branches are not yet supported and thus are deselected automatical
 ### Compiler
 
 If you want to generate your own model files you can use the compiler `studiengaenge/Compiler.jar`.
-Define your own field of study like in the given files in the `studiengaenge` directory.
-To compile your `.studiengaeng` file to a model loadable by the Studiengangskonfigurator, just run	
+Define your own field of study like in the given files in the `studiengaenge/` directory.
+To compile your `.studiengang` file to a model loadable by the Studiengangskonfigurator, just run	
 
 	java -jar Compiler.jar yourfile.studiengang
 	
-Note, that the model file will be generated into a directory `models/` next to your `.studiengaeng` file.
-Thus, if you place your file into the `studiengaenge/` directory, it will be found directly by the Studiengangskonfigurator.
+Note, that the model file will be generated into a directory `models/` next to your `.studiengang` file.
+Thus, if you place your file into the `studiengaenge/` directory, it will be generated in the default directory for the Studiengangskonfigurator.
 
 ### Implementation
 For further information on implementation and model please visit https://github.com/PaulAtTUBS/BroT.
