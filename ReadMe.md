@@ -18,19 +18,19 @@ For example, the [branch "Studienrichtung IT-Security"][2] has the following con
 (the subjects are listed in german according to the websites and tools specification):
 
 - Compulsory (Pflicht) (35 CP)
-   - Seminar IT‐Sicherheit (5 CP)
-   - Masterarbeit IT‐Sicherheit (30 CP)
+   - Seminar IT-Sicherheit (5 CP)
+   - Masterarbeit IT-Sicherheit (30 CP)
 
 - Compulsory Elective (Wahlpflicht) (35 CP)
-   - Fortgeschrittene IT‐Sicherheit (5 CP)
-   - Maschinelles Lernen in der IT‐Sicherheit (5 CP)
-   - Praktikum IT‐Sicherheit (5 CP)
+   - Fortgeschrittene IT-Sicherheit (5 CP)
+   - Maschinelles Lernen in der IT-Sicherheit (5 CP)
+   - Praktikum IT-Sicherheit (5 CP)
    - Praktikum Intelligente Systemsicherheit (5 CP)
    - Projektarbeit (15 CP)
    - Management von Informationssicherheit (5 CP)
    - Betriebssystemsicherheit (5 CP)
 
-If this branch is chosen, "Seminar IT‐Sicherheit" and "Masterarbeit IT‐Sicherheit" will be selected automatically, as these are mandatory.
+If this branch is chosen, "Seminar IT-Sicherheit" and "Masterarbeit IT-Sicherheit" will be selected automatically, as these are mandatory.
 Additionally, you have to choose subjects from the compulsory elective pool such that at least 35 credit points are reached.
 
 Thus, you can choose any subjects you are interested in or might already have attended and see if you could graduate in the branch you desire.
@@ -50,6 +50,17 @@ The following branches are not yet supported and thus are deselected automatical
   - Hardware-/Softwaresystementwurf und -analyse
   - Medizinische Informatik
   - Networked Systems.
+  
+### Compiler
+
+If you want to generate your own model files you can use the compiler `studiengaenge/Compiler.jar`.
+Define your own field of study like in the given files in the `studiengaenge` directory.
+To compile your `.studiengaeng` file to a model loadable by the Studiengangskonfigurator, just run	
+
+	java -jar Compiler.jar yourfile.studiengang
+	
+Note, that the model file will be generated into a directory `models/` next to your `.studiengaeng` file.
+Thus, if you place your file into the `studiengaenge/` directory, it will be found directly by the Studiengangskonfigurator.
 
 ### Implementation
 For further information on implementation and model please visit https://github.com/PaulAtTUBS/BroT.
