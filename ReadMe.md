@@ -38,7 +38,7 @@ Thus, you can choose any subjects you are interested in or might already have at
 ### Limitations
 
 Currently, not all branches of study are supported.  
-Suppored are:
+Supported are:
   + Big Data Management
   + IT-Security
   + Visual Computing
